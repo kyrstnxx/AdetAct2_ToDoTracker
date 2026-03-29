@@ -28,7 +28,10 @@ namespace AdetAct2
                     case "1":
                         Console.WriteLine("enter new task: ");
                         string task = Console.ReadLine();
-                        toDoList.Add(task);
+
+                        string timestamp = DateTime.Now.ToString("MM/dd/yyyy HH:mm");
+                        toDoList.Add($"[{timestamp}] {task}");
+
                         Console.WriteLine("task added.");
                         break;
                     case "2":
