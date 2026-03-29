@@ -13,7 +13,6 @@ namespace AdetAct2
             List<string> toDoList = new List<string>();
             string userInput = "";
 
-            Console.WriteLine("ADET | Activity 2");
             Console.WriteLine("To-Do List");
 
             while (userInput != "exit")
